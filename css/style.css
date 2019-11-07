@@ -1,5 +1,4 @@
-div {
-    color: aqua;
-    font-size: 3em;
-    font-style: italic;
-}
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+@import url('./layout/normalize.css');
+@import url('./blocks/animation.css');
