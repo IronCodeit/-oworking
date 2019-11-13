@@ -1,0 +1,139 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__page {
+    margin-bottom: 20px;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 90px;
+}
+
+.nav__link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+}
+
+.nav__item_active .nav__link {
+    color: #ec1e79;
+}
+
+.nav__page .nav__item_active .nav__link {
+    color: #000;
+}
+
+.nav__link:before {
+    content: "";
+    width: 20px;
+    height: 18px;
+    display: block;
+    margin-right: 20px;
+    background-image: url(../../img/nav_sprites.png);
+}
+
+.nav__item_active .nav__link_main:before {
+    background-position: -10px -10px;
+    width: 17px;
+    height: 15px;
+}
+
+.nav__page .nav__link_main:before {
+    background-position: -10px -10px;
+}
+
+.nav__page .nav__link_main:hover:before {
+    background-position: -84px -10px;
+}
+
+.nav__page .nav__link_main {
+    color: #ec1e79;
+}
+
+.nav__page .nav__link_main:hover {
+    color: #000;
+}
+
+.nav__page .nav__link_rates {
+    color: #ec1e79;
+}
+
+.nav__page .nav__link_rates:hover {
+    color: #000;
+}
+
+.nav__page .nav__item_active .nav__link_rates::before {
+    background-position: -160px -10px;
+}
+
+.nav__page .nav__link_rates:before {
+    background-position: -199px -10px;
+}
+
+.nav__page .nav__link_rates:hover:before {
+    background-position: -160px -10px;
+}
+
+.nav__link_rates:before {
+    background-position: -121px -10px;
+    width: 19px;
+    height: 16px;
+}
+
+.nav__link_rates:hover:before {
+    background-position: -199px -10px;
+}
+
+.nav__link_rates:hover {
+    color: #ec1e79;
+}
+
+.nav__item_active .nav__link_reviews:before {
+    background-position: -238px -10px;
+    width: 20px;
+    height: 18px;
+}
+
+.nav__page .nav__item_active .nav__link_reviews:before {
+    background-position: -278px -10px;
+}
+
+.nav__page .nav__link_reviews:before {
+    background-position: -318px -10px;
+}
+
+.nav__page .nav__link_reviews:hover:before {
+    background-position: -278px -10px;
+}
+
+.nav__page .nav__link_reviews {
+    color: #ec1e79;
+}
+
+.nav__page .nav__link_reviews:hover {
+    color: #000;
+}
+
+.nav__item_active .nav__link_reviews {
+    color: black;
+}
+
+.nav__link_reviews:before {
+    background-position: -238px -10px;
+    width: 20px;
+    height: 18px;
+}
+
+.nav__link_reviews:hover:before {
+    background-position: -318px -10px;
+}
+
+.nav__link_reviews:hover {
+    color: #ec1e79;
+}

@@ -1,0 +1,15 @@
+.header {
+    background-color: #27273e;
+    margin-bottom: -1px;
+}
+
+.header__container {
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__out {
+    margin-bottom: 27px;
+}

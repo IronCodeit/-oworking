@@ -1,0 +1,53 @@
+.rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.rate:hover {
+    border: 1px solid #e8e9ed;
+}
+
+.rate__category {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+
+.rate__subtitle {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 28px;
+}
+
+.rate__desk {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.rate__inner_item {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.rate__inner_item:hover {
+    font-weight: 700;
+}
+
+.rate__text {
+    text-align: center;
+}

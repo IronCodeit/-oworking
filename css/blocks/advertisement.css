@@ -1,0 +1,14 @@
+.advertisement {
+    background: url('../../img/pattern.png') repeat #27273e;
+    line-height: 30px;
+    color: #fff;
+    padding: 30px 11px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.discount {
+    color: #ec1e79;
+    font-weight: 700;
+}

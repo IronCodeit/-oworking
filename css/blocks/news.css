@@ -1,0 +1,43 @@
+.news__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.news__item {
+    display: flex;
+}
+
+.news__item:not(:last-child) {
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.news__pic {
+    margin-right: 23px;
+}
+
+.news__pic_img {
+    width: 174px;
+    height: 174px;
+    display: block;
+    border-radius: 50%;
+}
+
+.news {
+    margin-bottom: 45px;
+}
+
+.news__date {
+    color: #656464;
+    margin-bottom: 12px;
+}
+
+.news__subtitle {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.news__text {
+    line-height: 30px;
+}
