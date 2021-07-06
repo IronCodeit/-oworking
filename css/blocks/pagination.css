@@ -1,0 +1,49 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__reviews {
+    margin-bottom: 60px;
+}
+
+.pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination__text {
+    margin-right: 20px;
+}
+
+.pagination__link {
+    display: block;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 700;
+    color: #221f1f;
+}
+
+.pagination__item_active .pagination__link {
+    background-color: #27273e;
+    color: #ec1e79;
+}
+
+.pagination__link:hover {
+    color: #ec1e79;
+}
+
+.pagination__btn-before {
+    margin-right: 15px;
+    color: #221f1f;
+    opacity: 0.3;
+}
+
+.pagination__btn-after {
+    margin-left: 8px;
+    color: #221f1f;
+}

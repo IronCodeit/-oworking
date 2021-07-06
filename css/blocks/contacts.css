@@ -1,0 +1,83 @@
+address {
+    font-style: normal;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contacts__phone {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.contacts__desk {
+    opacity: 0.7;
+    color: #ec1e79;
+    font-weight: 700;
+    text-decoration: underline;
+    display: block;
+    text-align: right;
+}
+
+.contacts__desk:hover {
+    color: #5dd1f8;
+}
+
+.contacts__schedule {
+    position: relative;
+}
+
+.contacts__dropdown {
+    opacity: 0;
+    right: 5000px;
+    top: 100%;
+    position: absolute;
+    width: 141px;
+    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+    padding: 12px 7px;
+    background-color: #fff;
+    border-radius: 5px 0 5px 5px;
+    text-align: left;
+    margin-top: 21px;
+
+}
+
+.contacts__dropdown::after,
+.contacts__dropdown::before {
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.contacts__dropdown:before {
+    border: 10px solid transparent;
+    border-bottom-color: #fff;
+    top: -10px;
+    right: 0;
+    border-top-width: 0px;
+}
+
+.contacts__dropdown::after {
+    left: 0;
+    right: 0;
+    height: 30px;
+    top: -30px;
+}
+
+.contacts__schedule:hover .contacts__dropdown {
+    right: 0;
+    opacity: 1;
+}
+
+.contacts__days {
+    margin-bottom: 8px;
+    color: #ec1e79;
+    font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.footer {
+    background-color: #27273e;
+}
+
+.footer__container {
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__desk {
+    width: 264px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.footer__text_link {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer__author_name {
+    font-weight: 700;
+}

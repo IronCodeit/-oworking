@@ -1,0 +1,64 @@
+body {
+    font-family: 'Gotham Pro', Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1183px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.page-section {
+    display: flex;
+}
+
+.sidebar {
+    width: 24%;
+    margin-right: 24px;
+}
+
+.main-page {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 73px;
+}
+
+.page-content {
+    margin-bottom: 45px;
+}

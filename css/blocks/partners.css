@@ -1,0 +1,29 @@
+.partners,
+.partners__names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners__item:not(:last-child) {
+    margin-bottom: 45px;
+}
+
+.partners {
+    padding: 30px 60px;
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+}
+
+.partners:hover {
+    border: 1px solid #e8e9ed;
+}
+
+.partners__title {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 51px;
+}

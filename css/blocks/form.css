@@ -1,0 +1,138 @@
+.form-section {
+    display: flex;
+}
+
+.form {
+    padding: 50px 70px;
+    background-color: #f5f5f5;
+}
+
+.form__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__form {
+    margin-bottom: 30px;
+}
+
+.form__part_subtitle,
+.form__select_subtitle {
+    color: #221f1f;
+    margin-bottom: 10px;
+}
+
+.form__row:not(:last-child) {
+    margin-bottom: 21px;
+}
+
+.form__row {
+    display: flex;
+}
+
+.form__part {
+    flex: 1;
+}
+
+.form__part:not(:last-child) {
+    margin-right: 22px;
+}
+
+.form__part_input {
+    width: 100%;
+    padding: 17px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+}
+
+.form__part_input::placeholder,
+.form__part_text::placeholder {
+    opacity: 0.5;
+}
+
+.form__part_input:hover,
+.form__part_text:hover {
+    border: 1px solid #ec1e79;
+}
+
+.form__part_text {
+    min-height: 90px;
+    border: 1px solid #ec1e79;
+    padding: 17px 10px;
+    border-radius: 3px;
+    outline: none;
+    min-width: 568px;
+}
+
+.form__buttons {
+    margin-left: auto;
+}
+
+.form__buttons button {
+    padding: 15px 27px;
+    background-color: #27273e;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.form__buttons button:hover {
+    background-color: #ec1e79;
+    transition: 0.2s;
+}
+
+.select:not(:last-child) {
+    margin-right: 20px;
+}
+
+.select__radio {
+    display: none;
+}
+
+.fake {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: 1px solid #ec1e79;
+    border-radius: 50%;
+    position: relative;
+}
+
+.fake::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    background-color: #aa4573;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.fake:not(:last-child) {
+    margin-right: 7px;
+}
+
+.select__radio:checked~.text {
+    color: #aa4573;
+    transition: 0.2s;
+}
+
+.select__radio:checked+.fake::before {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.form__select_options,
+.select {
+    display: flex;
+    align-items: center;
+}
